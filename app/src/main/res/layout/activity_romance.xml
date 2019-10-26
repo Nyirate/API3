@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back">
+
+<!--    <TextView-->
+
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text=" AVAILABLE ROMANTIC MOVIES"-->
+<!--        android:textSize="30dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginLeft="40dp"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/two"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Forever My Girl"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="110dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/three"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="The Vow"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="150dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/four"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Remember Me"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="190dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/five"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Lucky one"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="230dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/six"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="One Day"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="270dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/seven"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hobs and Shaw"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="310dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/eight"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Longest Ride"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="350dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/nine"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Notebook"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="390dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ten"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Sleepless"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="430dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/one"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Serendipity"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_marginTop="470dp"-->
+<!--        android:layout_marginLeft="60dp"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+
+
+
+
+</RelativeLayout>

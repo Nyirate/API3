@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/view"
+        android:src="@drawable/twe"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Movies"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/emma"/>
+
+
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Rating"-->
+<!--                android:id="@+id/rating"-->
+<!--                android:layout_marginTop="40dp"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_alignParentRight="true"-->
+<!--                android:textColor="@color/colorAccent"/>-->
+<!--        </RelativeLayout>-->
+</LinearLayout>

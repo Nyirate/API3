@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_movies"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MoviesActivity"
+    >
+
+<!--    <TextView-->
+<!--        android:id="@+id/goview"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="CINEMA"-->
+<!--        android:textColor="@color/che"-->
+<!--        android:textSize="40dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        app:fontFamily="@font/biorhyme_extrabold"-->
+<!--       />-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="45dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:text="Action"-->
+<!--        android:textColor="@color/twin"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/tel"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="265dp"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:text="Comedy"-->
+<!--        android:textColor="@color/twin"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/tel1"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="47dp"-->
+<!--        android:layout_marginTop="310dp"-->
+<!--        android:text="Thriller"-->
+<!--        android:textColor="@color/twin"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/tel2"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="272dp"-->
+<!--        android:layout_marginTop="310dp"-->
+<!--        android:text="Horror"-->
+<!--        android:textColor="@color/twin"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/tel3"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="33dp"-->
+<!--        android:layout_marginTop="520dp"-->
+<!--        android:text="Christian"-->
+<!--        android:textColor="@color/twin"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/tel4"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="245dp"-->
+<!--        android:layout_marginTop="520dp"-->
+<!--        android:text="Romance"-->
+<!--        android:textColor="@color/twin"-->
+<!--        android:textSize="20dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:id="@+id/tel5"-->
+<!--        app:fontFamily="@font/cormorant"/>-->
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="38dp"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:visibility="gone" />
+
+
+</RelativeLayout>
