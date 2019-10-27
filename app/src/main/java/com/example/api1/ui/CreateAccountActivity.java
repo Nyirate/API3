@@ -32,7 +32,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
     @BindView(R.id.name) EditText mNameEdit;
     @BindView(R.id.email) EditText mEmail;
     @BindView(R.id.password)
-    EditText mPasswordt;
+    EditText mPassword;
     @BindView(R.id.confirm) EditText mConfirm;
     @BindView(R.id.login)
     TextView mLogin;
@@ -69,11 +69,11 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
         }
     }
     public void createNewUser(){
-        final String name = mNameEditText.getText().toString().trim();
-        final String email = mEmailEditText.getText().toString().trim();
-        String password = mPasswordEditText.getText().toString().trim();
-        String confirmPassword = mConfirmPasswordEditText.getText().toString().trim();
-        mName = mNameEditText.getText().toString().trim();
+        final String name = mNameEdit.getText().toString().trim();
+        final String email = mEmail.getText().toString().trim();
+        String password = mPassword.getText().toString().trim();
+        String confirmPassword = mConfirm.getText().toString().trim();
+        mName = mNameEdit.getText().toString().trim();
         boolean validEmail = isValidEmail(email);
         boolean validName = isValidName(name);
         boolean validPassword = isValidPassword(password, confirmPassword);
@@ -121,24 +121,24 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
     private boolean isValidEmail(String email) {
         boolean isGoodEmail = (email != null && Patterns.EMAIL_ADDRESS.matcher(email).matches());
         if(!isGoodEmail){
-            mEmailEditText.setError("Please enter a valid email address");
+            mEmail.setError("Please enter a valid email address");
             return false;
         }
         return isGoodEmail;
     }
     private boolean isValidName(String name){
         if(name.equals("")){
-            mNameEditText.setError("Please enter your name");
+            mNameEdit.setError("Please enter your name");
             return false;
         }
         return true;
     }
     private boolean isValidPassword(String password, String confirmPassword){
         if(password.length() < 6){
-            mPasswordEditText.setError("Please create a password containing at least 6 characters");
+            mPassword.setError("Please create a password containing at least 6 characters");
             return false;
         } else if (!password.equals(confirmPassword)){
-            mPasswordEditText.setError("Passwords do not match");
+            mPassword.setError("Passwords do not match");
             return false;
         }
         return true;
@@ -152,8 +152,8 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
                     @Override
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful()){
-//                            Log.d(TAG, user.getDisplayName());
-                            Toast.makeText(CreateAccountActivity.this, "The display name has ben set", Toast.LENGTH_LONG).show();
+
+                            Toast.makeText(CreateAccountActivity.this, "Your name is displayed", Toast.LENGTH_LONG).show();
                         }
                     }
                 });
