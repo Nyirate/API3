@@ -43,6 +43,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -161,8 +162,8 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
     }
 
     private boolean isValidPassword(String password, String confirm) {
-        if (password.length() < 8) {
-            mPassword.setError("A password should contain at least 8 characters");
+        if (password.length() < 6) {
+            mPassword.setError("A password should contain at least 6 characters");
             return false;
         } else if (!password.equals(confirm)) {
             mPassword.setError("Passwords do not match");
