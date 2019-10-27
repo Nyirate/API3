@@ -101,8 +101,9 @@
         android:layout_above="@+id/linearLayout"
         android:layout_marginBottom="79dp"
         android:text="Create Account"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/clear"
         android:textSize="30dp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginLeft="90dp"/>
 
 </RelativeLayout>
