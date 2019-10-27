@@ -75,7 +75,7 @@
             android:textStyle="bold"
             android:textSize="15sp"
             android:text="Don't have an account? Sign up here!"
-            android:id="@+id/registerTextView"
+            android:id="@+id/register"
             android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
