@@ -5,9 +5,10 @@ by Emma NYIRATE
 
 # Project Description
 
-WildLife Tracker project is an independent project where one is required to report news about animals,their names,species,age,location and health;that those in charge can find them and take good care of them.
+This week project is about implementing skills we learnt in this week,in my project the user will be required to sign in if he/she has an account and to sign up if not,the data will be kept in the firebase
 
 # Setup/Installation Requirements
+
 Android
 
 GitHub
@@ -23,7 +24,21 @@ git clone https://github.com/Nyirate/My-Movies-API2.git
 
 # BDD
 
-It is an application about movies when you click on the button it displays movie types and then you will see movie list depending on the movie type but it has somehow changed after adding the API because when you input the location the output will be the cinema
+It is an application of searching cinema places,for a user to search he/she has to sign up or log in
+
+# Project Sample
+
+# Login form
+
+<img src="/photos/log in.png">
+
+# Sign up form
+
+<img src="/photos/sign up.png">
+
+# Main Activity
+
+<img src="/photos/main.png">
 
 # Known Bugs
 
