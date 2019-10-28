@@ -22,9 +22,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public static final String TAG = MainActivity.class.getSimpleName();
     private Button mWatch;
     private EditText editLocation;
-    private FirebaseAuth mAuth;
-    private FirebaseAuth.AuthStateListener mAuthListener;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,17 +40,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
         });
-        mAuth = FirebaseAuth.getInstance();
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                FirebaseUser user = firebaseAuth.getCurrentUser();
-                if (user != null) {
-                    getSupportActionBar().setTitle("WELCOME TO CINEPLEX , " + user.getDisplayName());
-                } else {
-                }
-            }
-        };
     }
 
     @Override
