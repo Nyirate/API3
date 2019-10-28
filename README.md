@@ -20,7 +20,7 @@ To have access on this project or want to use it:
 Make sure you have Android Studio and a phone with a usb to connect on in your machine ,install Database .The installation methods are found on this link https://github.com/Ajuajmal/Install-Config/wiki/Installation-Of-Android-Studio-In-Ubuntu-18.04#install-intels-kvm-for-better-avd-performance and other sites such as stack overflow
 and after installing all those clone
 
-git clone https://github.com/Nyirate/My-Movies-API2.git
+git clone https://github.com/Nyirate/API3.git
 
 # BDD
 
