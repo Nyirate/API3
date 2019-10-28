@@ -1,5 +1,6 @@
 package com.example.api1.ui;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -14,31 +15,47 @@ import android.widget.Toast;
 
 import com.example.api1.R;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     public static final String TAG = MainActivity.class.getSimpleName();
     private Button mWatch;
     private EditText editLocation;
+    private FirebaseAuth mAuth;
+    private FirebaseAuth.AuthStateListener mAuthListener;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mWatch = (Button)findViewById(R.id.watch);
+        mWatch = (Button) findViewById(R.id.watch);
         editLocation = (EditText) findViewById(R.id.edit);
         mWatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String mov = editLocation.getText().toString();
-                Intent intent = new Intent(MainActivity.this,MoviesActivity.class);
+                Intent intent = new Intent(MainActivity.this, MoviesActivity.class);
                 intent.putExtra("location", mov);
                 startActivity(intent);
             }
 
 
         });
+        mAuth = FirebaseAuth.getInstance();
+        mAuthListener = new FirebaseAuth.AuthStateListener() {
+            @Override
+            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+                if (user != null) {
+                    getSupportActionBar().setTitle("WELCOME TO CINEPLEX , " + user.getDisplayName());
+                } else {
+                }
+            }
+        };
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();

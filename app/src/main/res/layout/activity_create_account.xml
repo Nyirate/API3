@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.api1.ui.CreateAccountActivity"
-    android:background="@drawable/me">
+    android:background="@drawable/yell">
 
     <LinearLayout
         android:orientation="vertical"
@@ -100,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/linearLayout"
         android:text="CREATE ACCOUNT"
-        android:textColor="@color/clear"
+        android:textColor="@android:color/black"
         android:textSize="30dp"
         android:textStyle="bold"
         android:layout_marginLeft="80dp"/>
