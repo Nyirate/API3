@@ -1,11 +1,9 @@
-
-
 # API1
 by Emma NYIRATE
 
 # Project Description
 
-This week project is about implementing skills we learnt in this week,in my project the user will be required to sign in if he/she has an account and to sign up if not,the data will be kept in the firebase
+This week project is about implementing skills we learnt in this week,in my project the user will be required to sign in if he/she has an account and to sign up if not,the data will be kept in the firebase.
 
 # Setup/Installation Requirements
 
@@ -20,7 +18,7 @@ To have access on this project or want to use it:
 Make sure you have Android Studio and a phone with a usb to connect on in your machine ,install Database .The installation methods are found on this link https://github.com/Ajuajmal/Install-Config/wiki/Installation-Of-Android-Studio-In-Ubuntu-18.04#install-intels-kvm-for-better-avd-performance and other sites such as stack overflow
 and after installing all those clone
 
-git clone https://github.com/Nyirate/My-Movies-API2.git
+git clone https://github.com/Nyirate/API3.git
 
 # BDD
 
