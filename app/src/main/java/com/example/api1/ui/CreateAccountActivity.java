@@ -134,8 +134,8 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
         return true;
     }
     private boolean isValidPassword(String password, String confirmPassword){
-        if(password.length() < 6){
-            mPassword.setError("Please create a password containing at least 6 characters");
+        if(password.length() < 8){
+            mPassword.setError("Please create a password containing at least 8 characters");
             return false;
         } else if (!password.equals(confirmPassword)){
             mPassword.setError("Passwords do not match");
@@ -153,7 +153,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful()){
 
-                            Toast.makeText(CreateAccountActivity.this, "Your name is" + user.getDisplayName(), Toast.LENGTH_LONG).show();
+                            Toast.makeText(CreateAccountActivity.this, "Have fun" + " "+ user.getDisplayName(), Toast.LENGTH_LONG).show();
                         }
                     }
                 });
