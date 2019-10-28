@@ -3,7 +3,7 @@ by Emma NYIRATE
 
 # Project Description
 
-Android third independent project is an independent project where one is required to implement everything we learnt in android..Mine will be keeping users data in the firebase,for a user to search for a cinema place he/she has to create account or login  
+Android third independent project is an independent project where one is required to implement everything we learnt in android..Mine will be keeping users data in the firebase,for a user to search for a cinema place he/she has to create account or login.. 
 
 # Setup/Installation Requirements
 Android
